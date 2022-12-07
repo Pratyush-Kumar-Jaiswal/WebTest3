@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+header{
+    height: 130px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: gray;
+}
+.color{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(64, 60, 60);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.c{
+    appearance: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.c:hover{
+    opacity: 0.5;
+    
+}
+#cyan,#cyan2{
+    background-color: cyan;
+}
+#violet,#violet2{
+    background-color:violet;
+}
+#lightgreen,#lightgreen2{
+    background-color: lightgreen;
+}
+#brown,#brown2{
+    background-color: brown;
+}
+.button{
+    margin-left: 20px;
+    /* width: 200px; */
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(64, 60, 60);
+}
+i{
+    color: white;
+    font-size: 40px;
+    pointer-events: none;
+    cursor: pointer;
+}
+.add,.del{
+    padding: 20px;
+    cursor: pointer;
+}
+#delet{
+    display: none;
+}
+#delet:checked ~ .del{
+    background-color: hotpink;
+}
+.ticket{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top:30%;
+    left: 35%;
+    display: flex;
+    display: none;
+    z-index: 5;
+}
+.text{
+    height: 380px;
+    padding: 30px;
+    background-color: gold;
+}
+.col{
+    width: 100px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:greenyellow;
+}
+#text{
+    resize: none;
+    width: 350px;
+    height: 310px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.c:checked{
+    border: 4px solid navy;
+}
+.tickets{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tick{
+width: 400px;
+height: 300px;
+background-color: lightgoldenrodyellow;
+border: 2px solid black;
+overflow: hidden;
+margin: 20px;
+/* pointer-events: none; */
+}
+.co{
+    height: 10px;
+    /* background-color: black; */
+    pointer-events: none;
+}
+.tag{
+    height: 30px;
+background-color: aliceblue;
+pointer-events: none;
+padding: 5px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.cont{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    /* align-items: ; */
+    padding: 10px;
+    background-color: lightpink;
+    pointer-events: none;
+}
